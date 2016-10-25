@@ -1,0 +1,14 @@
+package parkingSpace;
+
+
+public class ParkingSpace {
+
+	private int parkingSpaceNumber;
+	private String name;
+	private boolean resident, commuter, facStaff, guest, handicap, reserved, occupied;
+	private int timeLimit;
+	
+	
+
+	
+}

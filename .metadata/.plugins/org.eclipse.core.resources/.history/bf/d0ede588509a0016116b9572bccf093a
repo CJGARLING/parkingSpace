@@ -1,0 +1,51 @@
+package parkingSpace;
+
+
+public class ParkingSpace {
+
+	private int parkingSpaceNumber;
+	private String name;
+	private boolean resident, commuter, facStaff, guest, handicap, reserved, occupied;
+	private int timeLimit;
+	
+	public ParkingSpace(){
+		
+	}
+	
+	public void setParkingSpaceNumber(int num){
+		parkingSpaceNumber = num;
+	}
+	
+	public int getParkingSpaceNumber(){
+		return parkingSpaceNumber;
+	}
+	
+	public void setName(String pSName){
+		name = pSName;
+	}
+	
+	public String getName(){
+		return name;
+	}
+	
+	public void setResident(boolean r){
+		resident = r;
+	}
+	
+	public boolean getResident(){
+		return resident;
+	}
+	
+	public void setCommuter(boolean c){
+		commuter = c;
+	}
+	
+	public boolean getCommuter(){
+		return commuter;
+	}
+	
+	
+	
+
+	
+}

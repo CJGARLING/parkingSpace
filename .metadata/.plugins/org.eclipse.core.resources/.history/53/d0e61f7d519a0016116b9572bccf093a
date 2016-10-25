@@ -9,29 +9,7 @@ public class ParkingSpace {
 	private int timeLimit;
 	
 	public ParkingSpace(){
-		setParkingSpaceNumber(0);
-		setName("");
-		setResident(false);
-		setCommuter(false);
-		setFacStaff(false);
-		setGuest(true);
-		setHandicap(false);
-		setReserved(false);
-		setOccupied(false);
-		setTimeLimit(0);
-	}
-	
-	public ParkingSpace(int psn, String n, boolean r, boolean c, boolean fs, boolean g, boolean h, boolean rsv, boolean o, int tl){
-		setParkingSpaceNumber(psn);
-		setName(n);
-		setResident(r);
-		setCommuter(c);
-		setFacStaff(fs);
-		setGuest(g);
-		setHandicap(h);
-		setReserved(rsv);
-		setOccupied(o);
-		setTimeLimit(tl);
+		
 	}
 	
 	public void setParkingSpaceNumber(int num){
@@ -106,13 +84,7 @@ public class ParkingSpace {
 		return occupied;
 	}
 	
-	public void setTimeLimit(int tl){
-		timeLimit = tl;
-	}
 	
-	public int getTimeLimit(){
-		return timeLimit;
-	}
 
 	
 }
